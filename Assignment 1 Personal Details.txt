@@ -1,0 +1,128 @@
+Assignment 1: Personal Details Using Primitive Data Types
+Objective: Practice variables and System.out.println.
+Question:
+Write a Java program that:
+•	Stores the following details using primitive data types only:
+o	Age (int)
+o	Height in centimeters (float)
+o	Mobile number (long)
+o	Is student (boolean)
+•	Prints all the values on separate lines.
+
+package assignment1;
+
+public class Personaldetails {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+          int Age=26;
+          System.out.println(Age);
+          
+          float Height=170.5F;
+          System.out.println(Height);
+          
+          long phonenumber=9148006040l;
+          System.out.println(phonenumber);
+          
+          boolean Isstudentpresent=true;
+          System.out.println(Isstudentpresent);
+          
+	}
+
+}
+OUTPUT:
+26
+170.5
+9148006040
+true
+
+
+
+Assignment 2: Display All Primitive Data Types
+Objective: Understand Java primitive data types.
+Question:
+Write a Java program that declares one variable for each primitive data type:
+•	byte
+•	short
+•	int
+•	long
+•	float
+•	double
+•	char
+•	boolean
+
+package assignment1;
+
+public class Datatypes {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        int num=-987654321;
+        System.out.println(num);
+
+        long phonenumber=9148006040789l;
+        System.out.println(phonenumber);
+
+        boolean result=true;
+        System.out.println(result);
+        
+        byte ans=127;
+        System.out.println(ans);
+        
+        short data=-32000;
+        System.out.println(data);
+        
+        char alpha='M';
+        System.out.println(alpha);
+        
+        float marks=97.2F;
+        System.out.println(marks);
+        
+        double data1=12.1234567890123;
+        System.out.println(data1);
+	
+	}
+
+}
+OUTPUT:
+-987654321
+9148006040789
+true
+127
+-32000
+M
+97.2
+12.1234567890123
+
+
+Assignment 3: Marks of Three Subjects
+Objective: Practice using integer variables.
+Question:
+Write a Java program that:
+•	Stores marks of three subjects in int variables
+•	Stores pass/fail status in a boolean variable
+•	Prints all values on separate lines
+
+package assignment1;
+
+public class Marks {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        int Subject1marks=75;
+        System.out.println(Subject1marks);
+        int Subject2marks=68;
+        System.out.println(Subject2marks);
+        int Subject3marks=82;
+        System.out.println(Subject3marks);
+        boolean Result=true;
+        System.out.println(Result);
+	}
+
+}
+OUTPUT:
+75
+68
+82
+true
+
